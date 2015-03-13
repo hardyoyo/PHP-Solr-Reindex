@@ -1,9 +1,9 @@
 <?php
 	/* Solr Connectivity */
-	define('SOLR_HOST','http://0.0.0.0');			/* Hostname */
+	define('SOLR_HOST','http://127.0.0.1');			/* Hostname */
 	define('SOLR_PORT','8983');						/* Port */
 	define('SOLR_PATH','/solr/');					/* Default Solr path (usually /solr/) */
-	define('SOLR_CORE','my_core/');					/* Core */
+	define('SOLR_CORE','statistics/');					/* Core */
 	define('SOLR_WRITER_TYPE','json');				/* Writer Type - output type.  Currently only 'json' is supported. */
 	
 	/* Solr Version Flag */
